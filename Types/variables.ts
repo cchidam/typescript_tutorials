@@ -16,3 +16,12 @@ let isReleased: boolean = true;
 isReleased = false;
 //isReleased = "true"; // Error: Type '"true"' is not assignable to type 'boolean'.
 isReleased.valueOf(); // OK
+
+let something: any = "Hello";   // Type 'any' can be anything
+something = 10;
+something = true;
+something = {}; // OK   
+something = []; // OK
+
+let age= "something";
+//age=19;
